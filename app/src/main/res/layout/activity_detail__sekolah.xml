@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Detail_Sekolah">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input NPSN sekolah Dibawah ini !!"
+        android:id="@+id/npsnwarning"
+        android:visibility="gone"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_npsn"
+        android:inputType="number"
+        android:hint="NPSN"
+        android:maxLength="30"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Bentuk_Pendidikan"
+        android:inputType="text"
+        android:hint="Bentuk Pendidikan"
+        android:visibility="gone"
+        android:maxLength="30"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Alamat"
+        android:inputType="text"
+        android:hint="Alamat"
+        android:visibility="gone"
+        android:maxLength="10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nama_kabkota"
+        android:inputType="text"
+        android:hint="Nama Kota / Kabupaten"
+        android:visibility="gone"
+        android:maxLength="10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_telp"
+        android:inputType="number"
+        android:hint="No.Telp"
+        android:visibility="gone"
+        android:maxLength="10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Nama_Kepsek"
+        android:inputType="text"
+        android:hint="Nama Kepsek"
+        android:visibility="gone"
+        android:maxLength="10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nip_kepsek"
+        android:inputType="number"
+        android:hint="NIP"
+        android:visibility="gone"
+        android:maxLength="10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_No_HP"
+        android:inputType="number"
+        android:hint="No.HP"
+        android:visibility="gone"
+        android:maxLength="10"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_btm"
+        android:visibility="gone"
+        android:text="SAVE"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_btm"
+        android:visibility="gone"
+        android:text="UPDATE DATA"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_btm"
+        android:visibility="gone"
+        android:text="HAPUS DATA"/>
+
+</LinearLayout>
